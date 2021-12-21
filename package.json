@@ -7,7 +7,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=f77c5d93ddfc"
   },
   "dependencies": {
     "next": "12.0.7",
@@ -21,6 +22,7 @@
     "@storybook/addon-links": "^6.4.9",
     "@storybook/react": "^6.4.9",
     "babel-loader": "^8.2.3",
+    "chromatic": "^6.2.3",
     "eslint": "8.5.0",
     "eslint-config-next": "12.0.7"
   }
